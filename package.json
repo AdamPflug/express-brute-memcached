@@ -1,0 +1,29 @@
+{
+  "name": "express-brute-memcachde",
+  "version": "0.0.1",
+  "description": "A memcachde store for express-brute",
+  "keywords": [
+    "express",
+    "brute",
+    "memcached",
+    "store"
+  ],
+  "license": "BSD",
+  "private": false,
+  "scripts": {
+    "test": "node node_modules/jasmine-node/lib/jasmine-node/cli.js --captureExceptions --matchall spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AdamPflug/express-brute-memcached.git"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.11.0",
+    "proxyquire": "~0.5.0"
+  },
+  "dependencies": {
+    "underscore": "~1.5.1",
+    "memcached": "~0.2.4",
+    "express-brute": "~0.4.2"
+  }
+}
