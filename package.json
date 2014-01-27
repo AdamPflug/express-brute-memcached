@@ -1,7 +1,7 @@
 {
-  "name": "express-brute-memcachde",
+  "name": "express-brute-memcached",
   "version": "0.0.1",
-  "description": "A memcachde store for express-brute",
+  "description": "A memcached store for express-brute",
   "keywords": [
     "express",
     "brute",
