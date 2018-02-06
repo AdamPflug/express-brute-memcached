@@ -17,7 +17,7 @@ Usage
 var ExpressBrute = require('express-brute'),
 	MemcachedStore = require('express-brute-memcached');
 
-var store = new MemcachedStore('127.0.0.1');
+var store = new MemcachedStore('127.0.0.1:11211');
 var bruteforce = new ExpressBrute(store);
 
 app.post('/auth',
